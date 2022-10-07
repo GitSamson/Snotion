@@ -2,7 +2,7 @@ var request = require('request');
 const Key = process.env.NotionKey;
 
 
-if (Key==undefined){console.error("Key is required");;}
+// if (Key==undefined){console.error("Key is required");;}
 
 var url = function (id, type, command) {
     var result = 'https://api.notion.com/v1/' + type + '/' + id;

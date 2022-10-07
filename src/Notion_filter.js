@@ -1,4 +1,4 @@
-const NTDB = require('../database.js');
+const NTDB = require('./Notion_database');
 const logPrex = '[Notion_Filter]  '
 module.exports =  function filter(database, dict, condition) {
   // array: {title:test, run:false}

@@ -4,7 +4,7 @@
   "description": "Based on notion client, made an object based client. simplify all data and operation from original version",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node Test.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/GitSamson/Snotion#readme",
   "dependencies": {
+    "@notionhq/client": "^2.2.1",
+    "dotenv": "^16.0.3",
     "request": "^2.88.2"
   }
 }

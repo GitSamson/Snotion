@@ -1,4 +1,4 @@
-const rs = require('../RequestSender');
+const rs = require('./RequestSender');
 const NT_prop = require('./Notion_Property');
 const logPrex = '[Notion_Page]';
 

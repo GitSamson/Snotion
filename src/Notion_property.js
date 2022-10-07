@@ -1,6 +1,6 @@
 // for single prop object:
-const ut = require("../utilies.js");
-const NT_page = require('./Notion_Page')
+const ut = require("./utilies.js");
+const NT_page = require('./Notion_page')
 
 function NT_prop(data) {
     this.id = data.id;

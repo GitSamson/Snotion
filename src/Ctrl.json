@@ -1,0 +1,17 @@
+{
+  "createPage": true,
+  "TurnOffRun":false,
+  "UploadImgs": true,
+  "TurnOffRecreateRun":false,
+  "checkMethod":["Uploader","Item Code"],
+  "sheetProperty": ["Item Title", "Item Type", "Prepared", "Email","Tel"],
+  "Config_Key_CellName"  :"Template Cell Name",
+  "Config_Key_Coordinate" : "Input Coordinate",
+  "Config_Key_Column" :"Notion Column Name",
+  "ImgBeginRow":"Item Code",
+  "newSheetNameIndex": "Item Code",
+  "sheetToCombinKeyword":"Item Title",
+  "maxPageUnits":2,
+  "combineUnit":false,
+  "presentMode": true
+}
