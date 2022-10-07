@@ -1,6 +1,6 @@
-const op = require("./notion_connector/Notion_Page.js");
+const op = require("./Notion_page.js");
 const rs = require("./RequestSender.js");
-const filter = require('./notion_connector/Notion_Filter.js');
+const filter = require('./Notion_filter.js');
 const logPrex = '[database]';
 const ctrl = require('./Ctrl.json');
 
