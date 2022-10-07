@@ -1,0 +1,23 @@
+{
+  "name": "snotion",
+  "version": "1.0.0",
+  "description": "Based on notion client, made an object based client. simplify all data and operation from original version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitSamson/Snotion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitSamson/Snotion/issues"
+  },
+  "homepage": "https://github.com/GitSamson/Snotion#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
