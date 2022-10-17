@@ -8,22 +8,14 @@ const ID = process.env;
 const ndb_id = ID.database_id;
 const token = ID.NOTION_TOKEN;
 
-function run() {
+async function run() {
 
     var db_test = new client.init(token,ndb_id);
-    console.log(db_test.query(
-        {page_size:2}
-    ));
+    var db = await db_test.query({page_size:2});
+    console.log(db);
     
-    // nt.databases.query({
-    //     database_id: ndb_id,
-    //     page_size: 2
-    // }).then(data => {
-    //     ntdb.database(data);
-    //     console.log(data.results[0].properties);
-    // })
-
 
 }
 
 run();
+console.log();

@@ -13,10 +13,13 @@ class s_nt_db_init{
     });
   }
   query(parameter){
-    this.parameter = parameter;
-    this.parameter.database_id =  this.ntdb_id;
-
-    return ntdb.database(this.client.databse.query(this.parameter));
+    this.payload = parameter;
+    this.payload['database_id'] =  this.ntdb_id;
+    return this.client.databases.query(this.payload).then(
+      data=>{
+        return ntdb.database(data)
+      }
+    );
   }
 }
 
